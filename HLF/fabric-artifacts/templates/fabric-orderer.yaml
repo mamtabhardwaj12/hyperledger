@@ -82,7 +82,6 @@ spec:
       name: orderer-datadir
       namespace: {{ .Values.namespace }}
     spec:
-      storageClassName: standard
       accessModes:
       - ReadWriteOnce
       resources:
