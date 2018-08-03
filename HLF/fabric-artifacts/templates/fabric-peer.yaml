@@ -92,7 +92,6 @@ metadata:
   labels:
     app: {{ .Release.Name }}-peer0-pvc
 spec:
-  storageClassName: standard
   accessModes:
   - ReadWriteOnce
   resources:
